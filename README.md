@@ -1,4 +1,4 @@
-Pruning with pytorch.
+NN pruning with pytorch.
 
 Motivation: While Deep learning every day achieves the new state of the art results, it manages to do so with hefty costs. It uses lots of data and compute power to reach to any result that is sufficiently useful for actual day to-day applications. It is not possible to have such hardware with high computational power at the user’s end, imagine having a mobile of size multiple laptops, why even call it mobile? 😊 Computational and energy efficiency is the major problem in current deep learning systems. We need to be able to do same tasks with less computationally extensive systems without major loss in accuracy. Pruning in deep learning is one of the methods that helps just to do that.
 
@@ -22,5 +22,6 @@ Recently there have been research around training the module completely from the
 I have created the CIFAR CNN to see the effects of the pruning. I have used the built in APIs of the pruning in Pytorch with some custom pruning functions as well. I have used the unstructured L1 pruning from the pytorch, but I would expect even more good results with structured and global pruning. Please Refer to the attached ipynb.
 
 References:
+
 [1] https://arxiv.org/pdf/1812.01164.pdf    
 [2] https://papers.nips.cc/paper/2015/file/ae0eb3eed39d2bcef4622b2499a05fe6-Paper.pdf
